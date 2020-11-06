@@ -219,7 +219,6 @@ VO는 값을 의미하는 객체이죠.
 
 
 > Bad Example,  Dto Vo 구분없이 사용
-<img src="./images/4.png" alt="" style="width:326px;">
 
 
 ## Entity 깊게 보기
@@ -365,7 +364,7 @@ JpaRepository로 의존을 변경합니다. 그럼 서비스에서의 코드수�
 
 이럴때 사용하는 것이 의존성역전, 저수준에서 고수준으로 의존하게하자!!
 
-<img src="./images/1.png" width="400" alt ="">
+<img src="./images/5.png" width="400" alt ="">
 
 Repositoy를 Service와 비슷한 수준으로 끌어올립니다! 의존성역전.
 
@@ -553,8 +552,6 @@ public interface ProductRepository{
 
 > Bad Example
 > 프로젝트는 크나 계층 구조
-
-<img src="./images/10.png" alt="base64.png" style="width:400px;">
 
 
 > Good Example
