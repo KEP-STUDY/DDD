@@ -41,7 +41,7 @@
 
 이커머스를 예로 들면.. 간단하게는..
 
-<img src="./images/1.png" style="width:544px;" alt="">
+<img src="./images/1.png" style="width:400px;" alt="">
 
 ##  도메인 모델 정의
 
@@ -182,8 +182,8 @@ VO는 값을 의미하는 객체이죠.
 [Dto vs Vo](https://www.podo-dev.com/blogs/180)
 
 
-> Bad Example.. Dto Vo 구분없이 사용
-> <img src="./images/4.png" alt="" style="width:326px;">
+> Bad Example,  Dto Vo 구분없이 사용
+<img src="./images/4.png" alt="" style="width:326px;">
 
 
 ## Entity 깊게 보기
@@ -297,7 +297,7 @@ JpaRepository로 의존을 변경합니다. 그럼 서비스에서의 코드수�
 
 이럴때 사용하는 것이 의존성역전, 저수준에서 고수준으로 의존하게하자!!
 
-<img src="./images/1.png" alt ="">
+<img src="./images/1.png" width="400" alt ="">
 
 Repositoy를 Service와 비슷한 수준으로 끌어올립니다! 의존성역전.
 MyBatisRepository를 JpaRepository 바꾸더라도, 소스코드에 변경은 없습니다
@@ -464,10 +464,10 @@ public interface ProductRepository{
 
 하지만 보통..
 
-프로젝트가 작다면, 계층 위주로가 좋습니다.
+프로젝트가 작다면, 계층 위주로가 좋습니다. <br/>
 <img src="./images/8.png" alt="base64.png" style="width:400px;">
 
-프로젝트가 크다면, 도메인 위주가 좋습니다.
+프로젝트가 크다면, 도메인 위주가 좋습니다. <br/>
 <img src="./images/9.png" alt="base64.png" style="width:457px;">
 
 추천 post. [https://cheese10yun.github.io/spring-guide-directory/](https://cheese10yun.github.io/spring-guide-directory/)
@@ -476,10 +476,10 @@ public interface ProductRepository{
 > Bad Example
 > 프로젝트는 크나 계층 구조
 
-<img src="./images/10.png" alt="base64.png" style="width:462px;">
+<img src="./images/10.png" alt="base64.png" style="width:400px;">
 
 
 > Good Example
 > 프로젝트가 큰 도메인 위주
 
-<img src="./images/11.png" alt="base64.png" style="width:426px;">
+<img src="./images/11.png" alt="base64.png" style="width:400px;">
